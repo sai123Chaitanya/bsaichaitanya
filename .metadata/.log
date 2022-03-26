@@ -7313,3 +7313,25 @@ java.nio.file.FileAlreadyExistsException: C:\Users\saich\AppData\Local\Temp\mave
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 13:30:21.331
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 13:35:17.552
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 13:35:17.557
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.egit.core 4 0 2022-03-26 13:36:07.960
+!MESSAGE An exception occurred during push on URI https://github.com/sai123Chaitanya/bsaichaitanya.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1372)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:191)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:168)
+	at org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog.dryRun(SimpleConfigurePushDialog.java:366)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 13:39:43.835
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 13:39:43.839
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
