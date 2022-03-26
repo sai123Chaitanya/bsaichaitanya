@@ -22,6 +22,10 @@ public class Patch {
 		
 	}
 }
+<<<<<<< HEAD
 //major edit 345 456 562
+=======
+//major edit 5678
+>>>>>>> 24bee235a30ee7acb3c42fc7f39767483673346e
 
 
