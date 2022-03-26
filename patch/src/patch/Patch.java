@@ -5,9 +5,13 @@ import static io.restassured.RestAssured.*;
 import io.restassured.path.json.JsonPath;
 import static org.hamcrest.Matchers.*;
 
-public class Patch {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
+public class Patch {
+	
+	
+	@Test
+	public static void performpatch(){
 		
 		
 		RestAssured.baseURI ="https://jsonplaceholder.typicode.com";
@@ -22,16 +26,4 @@ public class Patch {
 		
 	}
 }
-<<<<<<< HEAD
-//major edit 345 456 562
-=======
-//major edit 5678
->>>>>>> 24bee235a30ee7acb3c42fc7f39767483673346e
-//hello world
-//edit 35
-//eidt36
-//edit3876
-//edit1
-//edit2
-//eidt3
-//edit2
+
