@@ -7469,3 +7469,78 @@ java.nio.file.AccessDeniedException: D:\software-Testing\wp21\patch\target\class
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 13:51:41.744
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:19:25.698
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:19:25.703
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:21:18.695
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:21:18.700
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:22:47.259
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:22:47.263
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:23:42.932
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:23:42.936
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:28:17.989
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:28:17.993
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2022-03-26 17:28:50.930
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:278)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2022-03-26 17:28:50.931
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-03-26 17:28:55.096
+!MESSAGE No repository found at https://mvnrepository.com/.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:29:01.176
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:29:01.180
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2022-03-26 17:29:08.703
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:29:10.422
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:29:10.426
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:29:16.305
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-03-26 17:29:16.309
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.repository 4 1007 2022-03-26 17:29:21.080
+!MESSAGE Authentication failed for https://repo.spring.io/plugins-release/.
+
+!ENTRY org.testng.eclipse 1 0 2022-03-26 17:29:34.096
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\946\0\.cp\lib\testng-remote.jar D:\software-Testing\wp21\patch\target\test-classes D:\software-Testing\wp21\patch\target\classes D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.testng_7.4.0.r202105021533.jar D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.78.0.jar D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.webjars.jquery_3.5.1.jar C:\Users\saich\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar C:\Users\saich\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar C:\Users\saich\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar C:\Users\saich\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar C:\Users\saich\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar C:\Users\saich\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\saich\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar C:\Users\saich\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar C:\Users\saich\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\saich\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\saich\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar C:\Users\saich\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar C:\Users\saich\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar C:\Users\saich\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar C:\Users\saich\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\saich\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar C:\Users\saich\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56598 -protocol json -d D:\software-Testing\wp21\patch\test-output C:\Users\saich\AppData\Local\Temp\testng-eclipse--1899993654\testng-customsuite.xml
+java -ea -classpath D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\configuration\org.eclipse.osgi\946\0\.cp\lib\testng-remote.jar:D:\software-Testing\wp21\patch\target\test-classes:D:\software-Testing\wp21\patch\target\classes:D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.testng_7.4.0.r202105021533.jar:D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\com.beust.jcommander_1.78.0.jar:D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.yaml.snakeyaml_1.21.0.jar:D:\software-Testing\eclipse-jee-2021-09-R-win32-x86_64\eclipse\plugins\org.webjars.jquery_3.5.1.jar:C:\Users\saich\.m2\repository\io\rest-assured\rest-assured\4.5.1\rest-assured-4.5.1.jar:C:\Users\saich\.m2\repository\org\codehaus\groovy\groovy\3.0.9\groovy-3.0.9.jar:C:\Users\saich\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.9\groovy-xml-3.0.9.jar:C:\Users\saich\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar:C:\Users\saich\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar:C:\Users\saich\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\saich\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar:C:\Users\saich\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar:C:\Users\saich\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\saich\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\saich\.m2\repository\io\rest-assured\json-path\4.5.1\json-path-4.5.1.jar:C:\Users\saich\.m2\repository\org\codehaus\groovy\groovy-json\3.0.9\groovy-json-3.0.9.jar:C:\Users\saich\.m2\repository\io\rest-assured\rest-assured-common\4.5.1\rest-assured-common-4.5.1.jar:C:\Users\saich\.m2\repository\io\rest-assured\xml-path\4.5.1\xml-path-4.5.1.jar:C:\Users\saich\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\saich\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar:C:\Users\saich\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar org.testng.remote.RemoteTestNG -serport 56598 -protocol json -d D:\software-Testing\wp21\patch\test-output C:\Users\saich\AppData\Local\Temp\testng-eclipse--1899993654\testng-customsuite.xml
