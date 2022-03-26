@@ -1,0 +1,30 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MethodReferencesTest {
+	
+	
+	public void createnew(List a)
+	{
+		
+	ArrayList<Integer> al = new ArrayList<Integer>(a);
+	
+	}
+	
+	
+	
+	
+	
+	public void main(String[] args) {
+		
+		Methodrefernce ab = new Methodrefernce();
+		
+		
+	
+
+	}
+	
+
+}

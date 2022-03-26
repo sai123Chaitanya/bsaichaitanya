@@ -1,0 +1,62 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+public class Ran implements Comparator<Integer> {
+	
+	
+	public void sortnumbers()
+	{
+		
+		List<String> a = new ArrayList<String>();
+		a.add("hello");
+		a.add("cello");
+		a.add("table");
+		a.add("ring");
+		a.add("phone");
+		a.add("jam");
+	
+		Collections.sort(a);
+		
+		a.stream().forEach(e -> System.out.format("%s", e));
+		System.out.println("");
+		
+		Collections.reverse(a);
+		
+		a.stream().forEach(e -> System.out.format("%s", e));
+		
+	}
+	
+	public static void main(String[] args) {
+	//Get and shuffle the list of arguments	
+	List<String> argList = Arrays.asList(args);
+	//Collections.shuffle(argList);
+	Collections.sort(argList);
+	
+	Ran a = new Ran();
+	a.sortnumbers();
+	
+	
+	
+	
+	//Print out the elements using JDK 8 Streams 
+	
+	argList.stream().forEach(e -> System.out.format("%s ", e));
+	System.out.println("a");
+	
+	//Prinout out the elements using for-each
+	for(String arg:argList)
+	{
+		System.out.format("%s ", arg);
+		
+	}
+	System.out.println("a");
+	}
+
+	
+	
+
+}

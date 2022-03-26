@@ -1,0 +1,30 @@
+package screenshots;
+
+import java.util.ArrayList;
+
+public class Department {
+	
+	
+	public static void main(String[] args) {
+		
+		ArrayList department = new ArrayList();
+		department.add("sales");
+		department.add("manufacturing");
+		department.add("inventory");
+		department.add("customer");
+		department.add("admin");
+		
+		
+	}
+	
+	
+	
+	
+	public  String toString()
+	{
+		
+		
+	return 	
+	}
+
+}

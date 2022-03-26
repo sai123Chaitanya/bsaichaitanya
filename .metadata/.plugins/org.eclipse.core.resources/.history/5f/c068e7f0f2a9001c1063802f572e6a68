@@ -1,0 +1,35 @@
+
+public class Pizzaprice {
+	
+	
+	Toppings topping;
+	Pizza pizza;
+	
+	
+	public Pizzaprice(Pizza pizza,Toppings topping)
+	{
+		this.topping = topping;
+		this.pizza = pizza;
+		
+	}
+	
+	public  Toppings gettoppings()
+	{
+		
+		
+	return topping;
+	}
+	
+	public Pizza getpizza()
+	{
+		
+		return pizza;
+	}
+	
+	public String toString()
+	{
+		return pizza + "   of  " + topping;
+		
+	}
+
+}

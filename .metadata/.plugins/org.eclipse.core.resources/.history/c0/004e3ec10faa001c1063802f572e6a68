@@ -1,0 +1,10 @@
+package screenshots;
+
+import java.util.TreeMap;
+
+public class MapExamples2 {
+	
+	
+	TreeMap<K, V> an = new TreeMap<K, V>();
+
+}

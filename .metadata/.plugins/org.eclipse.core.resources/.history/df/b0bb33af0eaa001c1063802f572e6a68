@@ -1,0 +1,25 @@
+package screenshots;
+
+import java.util.ArrayList;
+
+public class Department {
+	
+	
+	public static void main(String[] args) {
+		
+		ArrayList department = new ArrayList();
+		
+		
+	}
+	
+	
+	
+	
+	public  String toString()
+	{
+		
+		
+	return 	
+	}
+
+}

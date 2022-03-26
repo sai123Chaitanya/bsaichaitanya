@@ -1,0 +1,12 @@
+
+public class TestSimpleTimeclient {
+	
+	
+	public static void main(String[] args) {
+		TimeClient myTimeClient = new SimplezTimeClient();
+		
+		System.out.println("Current Time: " + myTimeClient.toString());
+		System.out.println("Time in california " + myTimeClient.getZonedDateTime("+5:30").toString());
+	}
+
+}

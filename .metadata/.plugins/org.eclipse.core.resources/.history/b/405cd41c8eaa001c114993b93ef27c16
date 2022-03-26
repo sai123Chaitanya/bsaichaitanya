@@ -1,0 +1,39 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class PersonMain {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Person[] employees = {new Person("bsai",30),new Person("ravi", 20),new Person("kiran", 20),new Person("jeevan",10),new Person("yathi",25)};
+		
+		List<Person> list = Arrays.asList(employees);
+		
+		System.out.println("print all persons");
+		
+		list.stream().forEach(System.out::println);
+			
+		
+		
+	}
+	
+	public static void printPersonsOlderThan(List<Person> roster,int age)
+
+	{
+		for(Person p: roster)
+		{
+			
+			if(p.getage()>= age)
+			{
+				
+				p.p
+			}
+		}
+		
+		
+		
+	}
+
+}

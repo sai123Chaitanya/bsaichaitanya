@@ -1,0 +1,46 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MethodReferencesTest {
+	
+	
+	public void createnew(List a)
+	{
+		
+	ArrayList<Integer> al = new ArrayList<Integer>(a);
+	System.out.println(al.toString());
+	
+	}
+	
+	public static void cretes()
+	{
+		
+		
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		MethodReferencesTest mt = new MethodReferencesTest();
+		List a = new ArrayList();
+		a.add(1);
+		a.add(2);
+		a.add(3);
+		a.add(4);
+		a.add(5);
+		a.add(6);
+		mt.createnew(a);
+		
+		
+		
+	
+
+	}
+	
+
+}

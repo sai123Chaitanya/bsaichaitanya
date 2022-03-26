@@ -1,0 +1,35 @@
+
+public class CalCost {
+	
+	static Pizzaprice pizza_in[] = new Pizzaprice[8];
+	
+	public CalCost()
+	{
+		
+		int i=0;
+		for(Pizza pizza: Pizza.values())
+		{
+			
+			for(Toppings topping: Toppings.values())
+			{
+				
+				pizza_in[i]  = new Pizzaprice(pizza,topping);
+				
+			}
+			
+		}
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		CalCost cost = new CalCost();
+		for(int i=0;i<8;i++)
+		{
+			System.out.println(pizza_in[i]);
+		}
+		
+	}
+}

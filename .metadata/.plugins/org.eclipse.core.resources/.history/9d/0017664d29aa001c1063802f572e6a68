@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class Sms {
+	
+	public static void main(String[] args) {
+		
+	StudentMain[] students = {new StudentMain("B Sai", "Hyderabad","Telanaga"),new StudentMain("Naveen","sanfransico","delaware"),new StudentMain("Kiran", "losangeles","denver"),new StudentMain("rosemary", "sanfransico","denver"),new StudentMain("rakul", "losangeles","denver")};
+	
+	// view students as list
+	List<StudentMain> list = Arrays.asList(students);
+	
+	//display all students
+	System.out.println("All city list");
+	list.stream().forEach(System.out::println);
+	
+	Map<String, Map<String, List<StudentMain>>> groupedbycitites = list.stream().collect(Collectors.groupingBy(StudentMain::getstate,Collectors.groupingBy(StudentMain::getcity));
+	System.out.println("grouping by cities");
+	groupedbycitites.forEach((name, city) -> {
+		System.out.println(name);
+		city.stream().forEach(e -> System.out.println(e));
+		
+	});
+	}
+
+}

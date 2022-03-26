@@ -1,0 +1,10 @@
+
+public class StudentMain {
+	
+	private String firstName;
+	private String lastName;
+	private Integer marks;
+	private Integer PASS_THRESHOLD;
+	
+
+}

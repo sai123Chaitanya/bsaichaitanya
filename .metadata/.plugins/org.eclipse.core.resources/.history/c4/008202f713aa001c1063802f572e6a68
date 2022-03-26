@@ -1,0 +1,23 @@
+package screenshots;
+
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class MapExamples2 {
+	
+public static void main(String[] args) {
+	
+	
+	
+	Department dobj = new Department();
+	
+	
+	
+
+	HashMap ab = new HashMap();
+	ab.put(dobj.getdepartment("sales"), dobj.get_sales_employeeslist());
+	ab.put(dobj.getdepartment(""), ab)
+
+}	
+
+}

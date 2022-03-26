@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>C:/Users/saich/Downloads/commons-io-2.11.0-src</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>D:/software-Testing/eclipse-jee-2021-09-R-win32-x86_64/eclipse/configuration/org.eclipse.osgi/949/0/.cp</location>
+		</link>
+	</linkedResources>
+</projectDescription>

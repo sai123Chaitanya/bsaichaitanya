@@ -1,0 +1,51 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class Listexamples {
+	
+	public static void main(String[] args) {
+		
+		
+		//List is an ordered collection
+		
+		//positional access ->  get ,set, add, addAll ,remove
+		
+		List<String> abc = new ArrayList<String>();
+		abc.add("dsdsds");
+		abc.add("cgc");
+		List<String> a = new ArrayList<String>(abc);
+		//a.add("a");
+		//a.add("c");
+		//a.add("d");
+		//a.set(0, "b"); // replaces an element at particular index
+		System.out.println(a.toString());
+//		a.addAll(a);// adds a collection
+//		System.out.println(a.toString());
+//		a.remove("d"); // removes first occurence of element
+//		System.out.println(a.toString());
+//		//a.clear(); // empties the list
+//		System.out.println(a.toString());
+//		System.out.println(a.indexOf("c"));
+//		System.out.println(a.lastIndexOf("c"));
+//		ListIterator<String> ir = a.listIterator();
+//		while(ir.hasNext())
+//		{
+//			System.out.println(ir.next()); 
+//			
+//			
+//		}
+//		
+//		System.out.println(a.subList(2, 4));
+//		int condition =100;
+		a.add("cgc");
+		System.out.println(a.toString());
+		a.removeIf(n -> n == "cgc");
+		System.out.println(a.toString());
+		
+	}
+
+}

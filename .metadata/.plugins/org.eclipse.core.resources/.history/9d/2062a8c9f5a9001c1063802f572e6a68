@@ -1,0 +1,75 @@
+
+public class Pizzaprice {
+	
+	
+	Toppings topping1;
+	Toppings topping2;
+	Toppings topping3;
+	Toppings topping4;
+	Pizza pizza;
+	Toppings topping;
+	
+	
+	
+	public Pizzaprice(Pizza pizza)
+	{
+		
+		
+		
+	}
+	
+	public Pizzaprice(Pizza toppings)
+	{
+		
+		
+		
+		
+		
+	}
+	
+	
+	public Pizzaprice(Pizza pizza,Toppings topping1)
+	{
+		this.topping1 = topping1;
+		this.pizza = pizza;
+		
+	}
+	
+	public Pizzaprice(Pizza pizza,Toppings topping1,Toppings topping2)
+	{
+		this.topping1 = topping1;
+		this.topping2 = topping2;	
+		this.pizza = pizza;
+		
+	}
+	
+	
+	public Pizzaprice(Pizza pizza,Toppings topping1,Toppings topping2,Toppings topping3)
+	{
+		this.topping1 = topping1;
+		this.topping2 = topping2;
+		this.topping3 = topping3;
+		
+		this.pizza = pizza;
+		
+	}
+	
+	
+	public Pizzaprice(Pizza pizza,Toppings topping1,Toppings topping2,Toppings topping3,Toppings topping4)
+	{
+		this.topping1 = topping1;
+		this.topping2 = topping2;
+		this.topping3 = topping3;
+		this.topping4 = topping4;
+		this.pizza = pizza;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+
+}

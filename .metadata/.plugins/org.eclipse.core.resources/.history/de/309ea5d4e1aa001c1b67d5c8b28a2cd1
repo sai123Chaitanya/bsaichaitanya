@@ -1,0 +1,13 @@
+
+public class LocalClassExample {
+	
+	static String regularExpression = "[^0-9]" ;
+	
+	public static void validatePhoneNumber(String phoneNumber1, phoneNumber2)
+	{
+		
+		
+		
+	}
+
+}

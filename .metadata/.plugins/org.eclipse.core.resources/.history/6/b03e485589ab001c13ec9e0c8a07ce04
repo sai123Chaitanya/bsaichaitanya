@@ -1,0 +1,5 @@
+package deckcard;
+
+public class PlayingCard {
+
+}

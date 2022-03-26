@@ -1,0 +1,37 @@
+
+public class Pizzaprice {
+	
+	
+	Pizzaprice topping;
+	Pizzaprice pizza;
+	Pizzaprice price;
+	
+	public Pizzaprice(Pizzaprice topping,Pizzaprice pizza)
+	{
+		this.topping = topping;
+		this.pizza = pizza;
+		this.price = price;
+		
+	}
+	
+	public  Pizzaprice gettoppings()
+	{
+		
+		
+	return topping;
+	}
+	
+	public Pizzaprice getpizza()
+	{
+		
+		return pizza;
+	}
+	
+	public Pizzaprice getprice()
+	{
+		
+		
+		return price;
+	}
+
+}

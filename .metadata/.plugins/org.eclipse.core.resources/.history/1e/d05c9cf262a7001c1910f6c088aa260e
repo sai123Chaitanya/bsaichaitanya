@@ -1,0 +1,6 @@
+
+public class ListOfNumbers2 {
+	
+	Victor = new Vector<Integer>(SIZE);
+
+}

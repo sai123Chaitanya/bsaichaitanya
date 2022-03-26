@@ -1,0 +1,42 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Counter {
+	public static void main(String[] args) {
+		
+	
+	int a[] = {10,30,50,56,89,10,20,30,30,40};
+	List b =new ArrayList();
+	for (int z:a)
+	{	
+		b.add(a);	
+	}
+	Collections.sort(b);
+	int count_original = 0;
+	int count_dup = 0;
+	for(int i=0;i<a.length;i++)
+	{
+	
+	
+	if(b.contains(a[i]))
+	{
+	count_original++;	
+		
+	}
+	else
+	{
+		
+	count_dup++;	
+		
+	}
+	}
+	
+	System.out.println(count_dup +  "   " + count_original);
+
+}
+}

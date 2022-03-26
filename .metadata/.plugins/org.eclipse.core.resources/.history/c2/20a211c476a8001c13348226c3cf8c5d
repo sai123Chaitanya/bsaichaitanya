@@ -1,0 +1,17 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Counter {
+	public static void main(String[] args) {
+		
+	
+	int a[] = {10,30,50,56,89,10,20,30,30,40};
+	
+	
+}
+}

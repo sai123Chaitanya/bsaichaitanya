@@ -1,0 +1,8 @@
+package deckcard;
+
+public class StandardDeck implements Deck {
+	
+	
+	
+
+}

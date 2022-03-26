@@ -1,0 +1,70 @@
+package screenshots;
+
+public class Employeeaggregate {
+	
+	private String firstName;
+	private String lastname;
+	private double salary;
+	private String department;
+	
+	
+	//constructor
+	
+	public Employeeaggregate(String firstName,String lastName,double salary,String department)
+	{
+		
+	this.firstName = firstName;
+	this.lastname = lastName;
+	this.salary = salary;
+	this.department = department;
+		
+	}
+	
+	//set firstName
+	public void setFirstName(String firstName)
+	{
+		
+		this.firstName = firstName;
+		
+		
+	}
+	
+	//get firstname
+	public String getFirstName(String firstName)
+	{
+		
+		return firstName;
+		
+		
+	}
+	
+	//set lastName
+	public void setLastName(String lastName)
+	{
+		
+		this.lastname = lastName;
+		
+	}
+	
+	//get lastName
+	public String getLastName(String lastName)
+		{
+			
+			return lastName;
+			
+		}
+	
+	//set salary
+	
+	public void setSalary(double salary)
+	{
+		
+		this.salary =salary;
+		
+	}
+	//get salary
+	
+	
+	
+
+}

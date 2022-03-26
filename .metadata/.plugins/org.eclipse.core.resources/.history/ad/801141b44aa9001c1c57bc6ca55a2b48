@@ -1,0 +1,22 @@
+package screenshots;
+
+import java.util.ArrayList;
+
+public class MethodReferencesTest extends ArrayList<Integer> {
+	
+	
+	 ArrayList<Integer> al = new ArrayList<Integer>();
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Methodrefernce ab = new Methodrefernce();
+	
+
+	}
+	
+
+}

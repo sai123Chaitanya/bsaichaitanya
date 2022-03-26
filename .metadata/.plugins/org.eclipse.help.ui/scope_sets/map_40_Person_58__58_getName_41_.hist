@@ -1,0 +1,6 @@
+#Tue Mar 22 00:07:15 IST 2022
+expression=map(Person\:\:getName)
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.sdk.Eclipse.master=true
+__DEFAULT__=false

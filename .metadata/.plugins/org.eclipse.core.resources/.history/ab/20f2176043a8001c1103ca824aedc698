@@ -1,0 +1,10 @@
+
+public class Readdata {
+	
+	
+	public static void main(String[] args) {
+		
+		String filepath
+	}
+
+}

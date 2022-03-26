@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class Sms {
+	
+	public static void main(String[] args) {
+		
+	StudentMain[] students = {new StudentMain("B Sai", "Hyderabad"),new StudentMain("Naveen","sanfransico"),new StudentMain("Kiran", "losangeles"),new StudentMain("rosemary", "sanfransico"),new StudentMain("rakul", "losangeles")};
+	
+	// view students as list
+	List<StudentMain> list = Arrays.asList(students);
+	
+	//display all students
+	System.out.println("All city list");
+	list.stream().forEach(System.out::println);
+	
+	Map<Boolean, List<StudentMain>> passingfailing = list.stream().collect(Collectors.groupingBy(s->s.getMarks()>= s.getpassthresholdmarks()));
+	System.out.println("list of passed and  and failed students");
+	passingfailing.forEach((result, student) -> {
+		System.out.println(result);
+		student.stream().forEach(e -> System.out.println(e));
+		
+	});
+	}
+
+}

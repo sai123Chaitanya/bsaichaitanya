@@ -1,0 +1,35 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import javax.print.attribute.HashAttributeSet;
+
+public class Counter {
+	public static void main(String[] args) {
+		
+	
+	int b[] = {10,30,50,56,89,10,20,30,30,40};
+	List c = new ArrayList();
+	Set a = new HashSet();
+	
+	for(int x:b)
+	{
+		a.add(x);
+	}
+	
+	for(int x:b)
+	{
+		c.add(x);
+	}
+	Collections.sort(c);
+	
+	a.stream().forEach(n -> c.stream().forEach(m -> System.out.println(m==n)));
+
+	
+	
+}
+}

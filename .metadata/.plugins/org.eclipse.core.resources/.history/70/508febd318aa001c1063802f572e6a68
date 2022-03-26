@@ -1,0 +1,7 @@
+package screenshots;
+
+public class Main {
+	
+	Employeeaggregate[] employees = {new Employeeaggregate("J","Red",51000,"IT"),new Employeeaggregate("A", "Green", 71600, "IT"),new Employeeaggregate("M", "Black", 35187.5, "Sales"),new Employeeaggregate("K", "Yellow", 47100.77, "Marketing"),new Employeeaggregate("L", "Pink", 62001, "IT"),new Employeeaggregate("D", "Blue", 32001, "Sales"),new Employeeaggregate("W", "Brown", 42361.4, "Marketing")};
+
+}

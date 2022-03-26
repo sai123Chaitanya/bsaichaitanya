@@ -1,0 +1,21 @@
+package screenshots;
+
+import java.util.Arrays;
+
+public class Methodrefernce {
+	
+	private String a;
+
+
+	public Methodrefernce()
+	{
+		this.a ="hello";
+	}
+
+	
+	public toString()
+	{
+		return this.a;
+	}
+}
+

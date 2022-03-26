@@ -1,0 +1,35 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Listexamples {
+	
+	public static void main(String[] args) {
+		
+		
+		//List is an ordered collection
+		
+		//positional access ->  get ,set, add, addAll ,remove
+		
+		
+		List<String> a = new ArrayList<String>();
+		a.add("a");
+		a.add("c");
+		a.add("d");
+		a.set(0, "b"); // replaces an element at particular index
+		System.out.println(a.toString());
+		a.addAll(a);// adds a collection
+		System.out.println(a.toString());
+		a.remove("d"); // removes first occurence of element
+		System.out.println(a.toString());
+		//a.clear(); // empties the list
+		System.out.println(a.toString());
+		System.out.println(a.indexOf("c"));
+		
+		
+		
+		
+	}
+
+}

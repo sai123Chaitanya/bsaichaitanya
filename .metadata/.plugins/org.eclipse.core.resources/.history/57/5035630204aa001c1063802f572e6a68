@@ -1,0 +1,24 @@
+import java.util.HashMap;
+
+public class MapExamples {
+	public static void main(String[] args) {
+		
+		
+		// map cannot contain duplicate keys
+		HashMap p = new HashMap();
+		//jdk 8 new features
+		//Lambda expressions
+		
+		
+		//method references
+		//default methods
+		//repeating annotations
+		//type annotations
+		//imporved type inferecen
+		//method parameter reflection
+		
+		//java.util.stream
+		//performance improvements of hashmap with key collections
+	}
+
+}

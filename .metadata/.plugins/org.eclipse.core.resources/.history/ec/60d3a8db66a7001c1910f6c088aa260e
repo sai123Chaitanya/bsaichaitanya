@@ -1,0 +1,96 @@
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.RandomAccessFile;
+import java.util.Vector;
+
+public class ListOfNumbers2 {
+	
+	private Vector<Integer> victor;
+	private static final int SIZE =10;
+	
+	public ListOfNumbers2()
+	{
+		victor = new Vector<Integer>(SIZE);
+		for(int i=0;i<SIZE;i++)
+		{
+			
+			victor.addElement(new Integer(i));
+		}
+		
+		this.readList("infile.txt");
+		this.writeList();
+		
+	}
+	
+	public void readList(String filename)
+	{
+		String line = null;
+		try
+		{
+			
+			RandomAccessFile raf = new RandomAccessFile(filename,"r");
+			while((line = raf.readLine()) != null)
+			{
+				Integer i = new Integer(Integer.parseInt(line));
+				System.out.println(i);
+				victor.addElement(i);
+			}
+		}
+			catch (FileNotFoundException fnf) {
+				
+				System.err.println("File :" + filename + "not found .");
+			}
+			catch(IOException io)
+			{
+				System.out.println(io.toString());
+			}
+		}		
+	
+	public void writeList()
+	{
+		PrintWriter out =null;
+		
+		try
+		{
+			out = new PrintWriter(new FileWriter("outfile.txt"));
+			for(int i=0;i<victor.size();i++)
+			{
+				
+				out.println("Valaue at:" + i + " =" + victor.elementAt(i));
+				
+			}
+		}
+		catch (ArrayIndexOutOfBoundsException e) {
+			System.err.println("Caught Array Index out of bound exception" + e.getMessage());
+		}
+		catch (IOException e) {
+			System.err.println("Caught IOException: "+e.getMessage());
+		}
+		finally
+		{
+			if(out !=null)
+			{
+				System.out.println("Closing Printwriter");
+				out.close();
+				
+				
+			}
+			else
+			{
+				
+				System.out.println("Printwriter not open");
+			}
+		}
+		
+		
+	}
+		
+	public static void main(String[] args) {
+		new ListOfNumbers2();
+	}
+	}
+
+
+

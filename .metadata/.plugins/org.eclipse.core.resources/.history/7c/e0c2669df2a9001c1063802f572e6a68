@@ -1,0 +1,6 @@
+
+public enum Toppings {
+	
+	Jalapenos,tomato,onion,carrot
+
+}

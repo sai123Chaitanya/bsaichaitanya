@@ -1,0 +1,7 @@
+
+public class CalCost {
+	
+	Pizzaprice pizza[] = new Pizzaprice[2];
+	Pizzaprice toppings[] = new Pizzaprice[4];
+	
+}

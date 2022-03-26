@@ -1,0 +1,56 @@
+
+public class StudentMain {
+	
+	private String Name;
+	private String city;
+	
+	
+	
+	
+	
+	
+	public StudentMain(String Name,String marks) {
+		
+		this.Name = Name;
+		this.city = city;
+	
+	
+	}
+	
+	
+	
+	public void setName(String Name)
+	{
+		this.Name = Name; 	
+			
+	}
+	
+	public String getName() { return Name;
+		
+	}
+	
+	public void setMarks(Integer marks) { this.marks = marks;
+		
+	}
+	
+	public Integer getMarks() {
+		return marks;
+	}
+	
+	public Integer getpassthresholdmarks() {
+		
+		return PASS_THRESHOLD;
+	}
+	
+	@Override
+	public String toString()
+	{
+		
+		
+		return String.format("%s   %s", getName(),getMarks());
+		
+	}
+	
+	
+
+}

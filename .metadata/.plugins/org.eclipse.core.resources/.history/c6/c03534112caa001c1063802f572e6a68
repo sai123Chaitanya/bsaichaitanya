@@ -1,0 +1,18 @@
+import java.util.HashMap;
+
+import com.gargoylesoftware.htmlunit.javascript.host.Map;
+
+public class Freq {
+	
+	public static void main(String[] args) {
+		
+		Map m = new HashMap();
+		
+		for(String a :args)
+		{
+			
+			Integer freq = m.get(a);
+		}
+	}
+
+}

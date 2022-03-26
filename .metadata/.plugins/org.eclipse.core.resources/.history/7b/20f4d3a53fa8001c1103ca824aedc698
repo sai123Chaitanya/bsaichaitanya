@@ -1,0 +1,12 @@
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.remote.server.SystemClock;
+
+public class Screenshot {
+	
+	public static void takepicture(WebDriver driver,String name)
+	{
+		TakesScreenshot ts = driver;
+		
+	}
+
+}

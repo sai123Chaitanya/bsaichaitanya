@@ -1,0 +1,12 @@
+package screenshots;
+
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class MapExamples2 {
+	
+	
+	HashMap ab = new HashMap();
+	
+
+}

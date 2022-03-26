@@ -1,0 +1,56 @@
+package screenshots;
+
+import java.util.ArrayList;
+
+public class Department {
+	
+	
+	public static void main(String[] args) {	
+		
+	}
+	
+	
+	public String getdepartment(String dep1)
+	{
+		
+		ArrayList<String> department = new ArrayList<String>();
+		department.add("sales");
+		department.add("manufacturing");
+		department.add("inventory");
+		department.add("customer");
+		department.add("admin");
+		
+		String dep =" ";
+
+		if(department.contains(dep1))
+			
+			dep = dep1;
+		return dep;
+	}
+	
+	public ArrayList getemployeeslist()
+	{
+	
+	ArrayList sales_employees = new ArrayList();
+	sales_employees.add("ravi");
+	sales_employees.add("kiran");
+	sales_employees.add("praksh");
+	sales_employees.add("yathi");
+	sales_employees.add("gokul");
+	sales_employees.add("hari");
+	
+	ArrayList manufacturing_employees = new ArrayList();
+	sales_employees.add("ravi");
+	sales_employees.add("kiran");
+	sales_employees.add("praksh");
+	sales_employees.add("yathi");
+	sales_employees.add("gokul");
+	sales_employees.add("hari");
+	
+	
+	
+	
+	return sales_employees;
+	}
+
+}

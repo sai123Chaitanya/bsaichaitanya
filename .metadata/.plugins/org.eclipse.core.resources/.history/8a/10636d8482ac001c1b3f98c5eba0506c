@@ -1,0 +1,17 @@
+package patch;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+import io.restassured.path.json.JsonPath;
+import static org.hamcrest.Matchers.*;
+
+public class Patch {
+
+	public static void main(String[] args) {
+		
+		
+		RestAssured.baseURI ="https://rahulshettyacademy.com";
+		Stringpatchrepsonse = given().log().all().queryParam("key", "qaclick1123").body(null)
+		
+	}
+}

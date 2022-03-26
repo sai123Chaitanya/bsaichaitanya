@@ -1,0 +1,52 @@
+
+
+public class Person {
+	
+
+	private Integer age;
+	private String name;
+	
+	
+public Person(String name,Integer age)
+{
+	
+this.age = age;
+this.name = name;
+
+
+}
+	
+	
+	
+public void setage(Integer age) {
+	this.age= age;
+	
+}	
+
+public Integer getage() {
+	return age;
+	
+}
+
+public void setname(String name) {
+	
+	this.name = name;
+	
+}
+
+public String printPerson()
+{
+	
+return name;
+}
+
+
+public String toString()
+{
+	
+return String.format("%s                        %s", getname(),getage());
+
+}
+	
+}
+

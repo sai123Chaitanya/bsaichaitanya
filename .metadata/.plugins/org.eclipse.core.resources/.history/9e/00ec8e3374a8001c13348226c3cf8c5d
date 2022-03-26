@@ -1,0 +1,30 @@
+package screenshots;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Counter {
+	public static void main(String[] args) {
+		
+	
+	int a[] = {10,30,50,56,89,10,20,30,30,40};
+	Set b =new HashSet();
+	
+	for (int z:a)
+	{
+		
+		b.add(a);
+		
+	}
+	
+	for(Object z :b)
+	{
+		
+		z.toString();
+		
+		
+	}
+
+}
+}

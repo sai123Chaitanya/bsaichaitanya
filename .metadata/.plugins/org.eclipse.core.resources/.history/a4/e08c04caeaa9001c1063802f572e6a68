@@ -1,0 +1,29 @@
+
+public class Pizzaprice {
+	
+	
+	String topping;
+	String pizza;
+	String price;
+	
+	public void gettoppings()
+	{
+		
+		
+		
+	}
+	
+	public void getpizza()
+	{
+		
+		
+	}
+	
+	public void getprice()
+	{
+		
+		
+		
+	}
+
+}

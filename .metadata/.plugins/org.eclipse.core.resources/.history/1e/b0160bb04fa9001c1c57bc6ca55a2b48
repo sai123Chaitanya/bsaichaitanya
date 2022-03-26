@@ -1,0 +1,50 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+public class MethodReferencesTest {
+	
+	
+	public void createnew(List<Integer> a)
+	{
+		
+	ArrayList<Integer> al = new ArrayList<Integer>(a);
+	System.out.println(al.toString());
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		MethodReferencesTest mt = new MethodReferencesTest();
+		
+		
+		
+		List<Integer> a = new ArrayList<Integer>();
+		a.add(1);
+		a.add(2);
+		a.add(3);
+		a.add(4);
+		a.add(5);
+		a.add(6);
+		mt.createnew(a);
+		List<Integer> abc = a.stream().map(n -> n*n).collect(Collectors.toList());
+		System.out.println(abc.toString());
+		
+		
+		
+	
+
+	}
+	
+
+}

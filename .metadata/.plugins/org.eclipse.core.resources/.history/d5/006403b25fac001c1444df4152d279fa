@@ -1,0 +1,65 @@
+package makemytrip;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Cards {
+	public static void main(String[] args) throws Exception {
+		
+			
+		System.setProperty("webdriver.chrome.driver", "D:\\software-Testing\\softwarefiles\\chromedriver99\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.makemytrip.com/");
+		driver.manage().window().maximize();
+		//WebElement ab =  driver.findElement(By.linkText("Bank Offers"));
+		try {
+			WebElement offers =   driver.findElement(By.xpath("//*[@id='PROMOTIONS']/div/div/div/div/div[1]/div/div"));
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].scrollIntoView(true)",offers);
+			
+			WebElement cards= driver.findElement(By.xpath("//*[@id='Offers_Listing']/div[2]/div/div/div"));
+			List<WebElement> ele =   cards.findElements(By.className("slideItem"));
+			System.out.println(ele.size());
+			
+			
+			//*[@id="Offers_Listing"]/div[1]/div/ul
+			Actions action  = new Actions(driver);
+			
+			WebElement links = driver.findElement(By.xpath("//*[@id='Offers_Listing']/div[1]/div/ul"));
+			List<WebElement> linksofcard =links.findElements(By.tagName("li"));
+			System.out.println(linksofcard.size());
+			
+			
+			for(int i=0;i<linksofcard.size();i++)
+			{
+
+			WebElement linktexta = linksall.findElement(By.tagName("a"));
+			linktexta.getText();
+			linktexta.click();
+			System.out.println(linktexta.getText());
+			}
+			
+			WebElement link2 = linksofcard.get(1);
+			WebElement linktexta2 = link2.findElement(By.tagName("a"));
+			linktexta2.getText();
+			linktexta2.click();
+			System.out.println(linktexta2.getText());
+			
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		finally
+		{
+		driver.quit();
+	}
+		}
+
+}

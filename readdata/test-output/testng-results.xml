@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42459" started-at="2022-03-20T19:25:52Z" finished-at="2022-03-20T19:26:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42459" started-at="2022-03-20T19:25:52Z" finished-at="2022-03-20T19:26:34Z">
+      <class name="readdata.ReadExcel">
+        <test-method status="PASS" signature="senda(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:readdata.ReadExcel@184cf7cf]" name="senda" duration-ms="10573" started-at="2022-03-21T00:55:53Z" data-provider="details" finished-at="2022-03-21T00:56:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chaitanya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[goud]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senda -->
+        <test-method status="PASS" signature="senda(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:readdata.ReadExcel@184cf7cf]" name="senda" duration-ms="10335" started-at="2022-03-21T00:56:03Z" data-provider="details" finished-at="2022-03-21T00:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hellow]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[orld]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[whatsup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senda -->
+        <test-method status="PASS" signature="senda(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:readdata.ReadExcel@184cf7cf]" name="senda" duration-ms="10827" started-at="2022-03-21T00:56:14Z" data-provider="details" finished-at="2022-03-21T00:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[system]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[energy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senda -->
+        <test-method status="PASS" signature="senda(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:readdata.ReadExcel@184cf7cf]" name="senda" duration-ms="9847" started-at="2022-03-21T00:56:25Z" data-provider="details" finished-at="2022-03-21T00:56:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[come]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hime]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rey]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- senda -->
+      </class> <!-- readdata.ReadExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

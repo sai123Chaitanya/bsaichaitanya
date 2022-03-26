@@ -1,0 +1,8 @@
+
+public class StudentMain {
+	
+	private String firstName;
+	private String lastName;
+	
+
+}

@@ -1,0 +1,26 @@
+
+public class CalCost {
+	
+	Pizzaprice pizza[] = new Pizzaprice[2];
+	Pizzaprice toppings[] = new Pizzaprice[4];
+	
+	public CalCost()
+	{
+		
+		int i=0;
+		for(Pizzaprice pizzatype: Pizza.valueOf())
+		{
+			
+			for(Pizzaprice toppingsvalue: toppings)
+			{
+				
+				
+				
+			}
+			
+		}
+		
+		
+		
+	}
+}

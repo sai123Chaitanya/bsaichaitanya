@@ -1,0 +1,93 @@
+import java.util.List;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class RosterTest {
+	
+	
+	interface CheckPerson
+	{
+		
+		boolean test(Person p);
+		
+	}
+	
+	// aaproach :create method that searches for Persons tht matches one charateristic
+	public static void printPersonsOlderThan(List<Person> roster,int age) {
+		
+		for(Person p: roster)
+		{
+			
+			
+			if(p.getAge() > = age)
+			{
+				p.printPerson();
+				
+			}
+		}
+		
+	}
+	//more generalized search method
+	public static void printPersonsWithinAgeRange(List<Person> roster,int low,int high)
+	{
+		for(Person p: roster)
+		{
+			
+			if(low<= p.getAge() && p.getAge() <high)
+			{
+				
+				
+				p.printPerson();
+			}
+		}
+	}
+	
+	// specify search criteria code in local class
+	//specify search criteria code in anaonymous class
+	//specify search criteria code with lambda expression
+	
+	public static void printPersons(List<Person> roster,CheckPerson tester) {
+		for(Person p:roster)
+		{
+			if(tester.test(p))
+				p.printPerson();
+		}
+		
+		
+	}
+	
+	
+	//Standard functional interface with lambda expression
+	
+	public static void printPersonsWithPredicate(List<Person> roster,Predicate<Person> tester)
+	{
+		
+		for(Person p: roster)
+		{
+			if(tester.test(p))
+			{
+				
+				p.printPerson();
+			}
+		}
+	}
+
+	
+	//use lambda expression throught your application
+	
+	public static void processPersons(List<Persons> roster.Predicate<Person> tester,Consumer<Person> block) {
+		for(Person p:roster)
+		{
+			if(tester.test(p))
+			{
+				
+				block.accept(p);
+			}
+		}
+	}
+	
+	
+
+	
+
+

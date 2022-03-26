@@ -1,0 +1,39 @@
+
+public class Pizzaprice {
+	
+	
+	String topping;
+	String pizza;
+	String price;
+	
+	public Pizzaprice()
+	{
+		
+		this.topping = topping;
+		this.pizza = pizza;
+		this.price = price;
+		
+		
+	}
+	
+	public void gettoppings()
+	{
+		
+		
+		
+	}
+	
+	public void getpizza()
+	{
+		
+		
+	}
+	
+	public void getprice()
+	{
+		
+		
+		
+	}
+
+}

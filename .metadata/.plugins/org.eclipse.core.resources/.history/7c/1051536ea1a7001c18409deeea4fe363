@@ -1,0 +1,35 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class FileList {
+	
+	public static void main(String[] args) {
+		
+		final int assumedLineLength = 50;
+		File file = new File(args[0]);
+		List<String> filelist = new ArrayList<String>((int)(file.length()/ assumedLineLength)*2);
+		
+		BufferedReader reader = null;
+		
+		int lineCount =0;
+		
+		try {
+			
+			
+			reader = new BufferedReader(new FileReader(file));
+			for(String line = reader.readLine(); line!=null;line = reader.readLine())
+			{
+				
+				filelist.add(line);
+				lineCount++;
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

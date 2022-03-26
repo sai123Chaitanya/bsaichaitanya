@@ -1,0 +1,21 @@
+package screenshots;
+
+import java.util.List;
+
+public class Listexamples {
+	
+	public static void main(String[] args) {
+		
+		
+		//List is an ordered collection
+		
+		//positional access ->  get ,set, add, addAll ,remove
+		
+		List a = null;
+		a.add("a");
+		System.out.println(a.get(0));
+		
+		
+	}
+
+}

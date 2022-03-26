@@ -1,0 +1,14 @@
+import java.util.function.BiFunction;
+
+public class MethodReferencesExamples {
+	
+	
+	public static <T> T mergeThings(T a,T b, BiFunction<T,T,T> merger)
+	{
+		return merger.apply(a, b);
+	}
+	
+	
+	
+
+}

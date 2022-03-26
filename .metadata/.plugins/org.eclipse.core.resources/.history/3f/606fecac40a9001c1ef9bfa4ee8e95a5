@@ -1,0 +1,55 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Spliterator;
+import java.util.TreeSet;
+
+public class Setexample  {
+	public static void main(String[] args) throws CloneNotSupportedException {
+		
+		//A set is a collection which cannot contain duplicate elements
+		//hashset - no order of iteration- stores elements in hashtable
+		//treeset - orders its elements based on value
+		//linkedhashset
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(1);
+		list.add(4);
+		list.add(5);
+		list.add(7);
+		list.add(9);
+		list.add(11);
+		list.add(12);
+		list.add(15);
+		list.add(19);
+		list.add(21);
+		HashSet<Integer> set = new HashSet<Integer>(list);
+		
+		System.out.println("set"+ set.toString());
+		HashSet<Integer> set1 = new HashSet<Integer>();
+		
+		set1 = (HashSet<Integer>) set.clone();
+		set1.remove(21);
+		set1.remove(1);
+		System.out.println("set1" + set1.toString());
+		
+		Spliterator<Integer> a = set1.spliterator();
+		Spliterator<Integer> a1 = a.trySplit();
+		//System.out.println(a.trySplit());
+		a.forEachRemaining(n-> System.out.println(n));
+		System.out.println("*******************************************88");
+		a1.forEachRemaining(n-> System.out.println(n));
+		
+		
+		//treeset -orders its elements based on value
+		
+		TreeSet<Integer> tset = new TreeSet<Integer>(list);
+		System.out.println(tset.descendingSet().toString());
+
+		
+	}
+	
+
+}

@@ -1,0 +1,25 @@
+
+public class Nclasses {
+	
+	//Nested classes
+	//logically grouping the class
+	//it increases encapsulation
+	// it can lead to more readable and maintainable code
+	public static void name()
+	{
+		System.out.println("sai");
+	}
+	
+	
+	public class M
+	{
+		Nclasses a = new Nclasses();
+		a.
+
+		
+	}
+	
+	
+	
+
+}

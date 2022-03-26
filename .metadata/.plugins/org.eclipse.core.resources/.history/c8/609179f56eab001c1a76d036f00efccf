@@ -1,0 +1,47 @@
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+public class SimplezTimeClient implements TimeClient {
+	
+	private LocalDateTime dateAndTime;
+	
+	public void simpleTimeClient()
+	{
+		
+		dateAndTime = LocalDateTime.now();
+	}
+
+	@Override
+	public void setTime(int hour, int minute, int second) {
+		LocalDate currentDate = LocalDate.from(dateAndTime);
+		LocalTime timetoSet = LocalTime.of(hour, minute,second);
+		dateAndTime = LocalDateTime.of(currentDate, timetoSet);
+		
+	}
+
+	@Override
+	public void setDate(int day, int month, int year) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setDateAndTime(int day, int month, int year, int hour, int minute, int second) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public LocalDateTime getLocalDateTime() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	}
+	
+	
+	
+
+

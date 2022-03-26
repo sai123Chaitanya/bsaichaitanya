@@ -1,0 +1,12 @@
+import java.util.List;
+
+public class Stream {
+	
+	
+	
+	
+	 List roster = Person.createRoster();
+	 
+	 Integer totalAge = roster.stream().mapToInt(Person::getAge).sum();
+
+}

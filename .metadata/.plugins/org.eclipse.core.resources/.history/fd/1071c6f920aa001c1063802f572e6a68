@@ -1,0 +1,32 @@
+
+public class StudentMain {
+	
+	private String Name;
+	private Integer marks;
+	private Integer PASS_THRESHOLD=35;
+	
+	
+	
+	public void setName(String Name)
+	{
+		this.Name = Name; 	
+			
+	}
+	
+	public String getName() { return Name;
+		
+	}
+	
+	public void setMarks(Integer marks) { this.marks = marks;
+		
+	}
+	
+	public Integer getMarks() {
+		return marks;
+	}
+	
+	public Integer getPassmarks() { return PASS_THRESHOLD;
+		
+	}
+
+}

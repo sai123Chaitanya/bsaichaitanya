@@ -1,0 +1,49 @@
+package screenshots;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class Main {
+	public static void main(String[] args) {
+		
+	
+	
+	Employeeaggregate[] employees = {new Employeeaggregate("J","Red",51000,"IT"),new Employeeaggregate("A", "Green", 71600, "IT"),new Employeeaggregate("M", "Black", 35187.5, "Sales"),new Employeeaggregate("K", "Yellow", 47100.77, "Marketing"),new Employeeaggregate("L", "Pink", 62001, "IT"),new Employeeaggregate("D", "Blue", 32001, "Sales"),new Employeeaggregate("W", "Brown", 42361.4, "Marketing")};
+	
+	
+	// get List view of the Employees
+	List<Employeeaggregate> list = Arrays.asList(employees);
+	
+	//display all employees
+	
+	System.out.println("Complete employee list");
+	
+	list.stream().forEach(System.out::println);
+	
+	
+	//group employees by department
+	System.out.printf("%nEmployees by department:%n");
+	Map<String, List<Employeeaggregate>> groupedByDepartment = list.stream().collect(Collectors.groupingBy(Employeeaggregate::getDepartment));
+	
+	groupedByDepartment.forEach((department,employeesInDepartment) -> {
+		
+		System.out.println(department);
+		employeesInDepartment.forEach(employee -> System.out.printf("         %s%n", employee));
+		
+	});
+	
+	
+	
+	Map totalByDept = list.stream().collect(Collectors.groupingBy(Employeeaggregate::getDepartment,Collectors.summingDouble(Employeeaggregate::getSalary)));
+	
+	totalByDept.forEach((department1,totalsalary) ->{
+		
+		
+		
+	} )
+	
+
+}
+}

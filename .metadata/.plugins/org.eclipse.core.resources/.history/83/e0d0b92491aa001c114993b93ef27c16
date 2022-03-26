@@ -1,0 +1,12 @@
+
+public class RosterTest {
+	
+	
+	interface CheckPerson
+	{
+		
+		boolean test(Person p);
+		
+	}
+
+}

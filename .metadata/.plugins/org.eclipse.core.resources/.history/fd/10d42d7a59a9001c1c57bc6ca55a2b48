@@ -1,0 +1,15 @@
+package screenshots;
+
+class GFG
+{
+	
+static void someFunction(String s)
+{
+	
+System.out.println(s);
+
+}
+
+
+
+}

@@ -1,0 +1,52 @@
+
+public class StudentMain {
+	
+	private String Name;
+	private String city;
+	
+	
+	
+	
+	
+	
+	public StudentMain(String Name,String city) {
+		
+		this.Name = Name;
+		this.city = city;
+	
+	
+	}
+	
+	
+	
+	public void setName(String Name)
+	{
+		this.Name = Name; 	
+			
+	}
+	
+	public String getName() { return Name;
+		
+	}
+	
+	public void setcity(String city) { this.city = city;
+		
+	}
+	
+	public String getcity() {
+		return city;
+	}
+	
+	
+	@Override
+	public String toString()
+	{
+		
+		
+		return String.format("%s   %s", getName(),getcity());
+		
+	}
+	
+	
+
+}

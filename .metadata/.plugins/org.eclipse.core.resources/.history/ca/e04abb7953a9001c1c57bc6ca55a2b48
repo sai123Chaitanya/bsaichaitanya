@@ -1,0 +1,97 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Spliterator;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
+
+public class Setexample  {
+	
+	
+	 public List<Integer> sendinglistdata()
+	{
+		 List<Integer> list = new ArrayList<Integer>();
+			list.add(1);
+			list.add(4);
+			list.add(5);
+			list.add(7);
+			list.add(9);
+			list.add(11);
+			list.add(12);
+			list.add(15);
+			list.add(19);
+			list.add(21);
+		 ArrayList<Integer> ld = new ArrayList<Integer>(list);
+		return ld;
+		
+	}
+	 
+	 
+	public static void main(String[] args) throws CloneNotSupportedException {
+		
+		//A set is a collection which cannot contain duplicate elements
+		//hashset - no order of iteration- stores elements in hashtable
+		//treeset - orders its elements based on value
+		//linkedhashset
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(1);
+		list.add(4);
+		list.add(5);
+		list.add(7);
+		list.add(9);
+		list.add(11);
+		list.add(12);
+		list.add(15);
+		list.add(19);
+		list.add(21);
+		HashSet<Integer> set = new HashSet<Integer>(list);
+		
+		System.out.println("set"+ set.toString());
+		HashSet<Integer> set1 = new HashSet<Integer>();
+		
+		set1 = (HashSet<Integer>) set.clone();
+		set1.remove(21);
+		set1.remove(1);
+		System.out.println("set1" + set1.toString());
+		
+		Spliterator<Integer> a = set1.spliterator();
+		Spliterator<Integer> a1 = a.trySplit();
+		//System.out.println(a.trySplit());
+		a.forEachRemaining(n-> System.out.println(n));
+		System.out.println("*******************************************88");
+		a1.forEachRemaining(n-> System.out.println(n));
+		
+		
+		//treeset -orders its elements based on value
+		
+		TreeSet<Integer> tset = new TreeSet<Integer>(list);
+		System.out.println(tset.descendingSet().toString());
+		System.out.println(tset.toString());
+		
+		
+		//linkedhashset - follows insertion order
+		
+		//collections
+		System.out.println("**************************************************");
+		tset.parallelStream().map(e -> e%2==0).forEach(e -> System.out.println(e));
+		
+		tset.parallelStream().map(e -> e%2==0).forEach(e -> System.out.println(e));
+		
+		String join = tset.stream().map(Object::toString).collect(Collectors.joining(","));
+		
+		System.out.println(join);
+		
+		 Integer total = tset.stream().collect(Collectors.summingInt(e -> e));
+
+		 System.out.println(total);
+		
+		
+
+		
+	}
+	
+
+}

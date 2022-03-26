@@ -1,0 +1,11 @@
+import java.util.HashMap;
+
+public class MapExamples {
+	public static void main(String[] args) {
+		
+		
+		// map cannot contain duplicate keys
+		HashMap p = new HashMap();
+	}
+
+}

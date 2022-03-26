@@ -1,0 +1,83 @@
+package screenshots;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+import javax.print.attribute.HashAttributeSet;
+
+public class Counter {
+	public static void main(String[] args) {
+		
+	
+	int b[] = {10,30,50,56,89,10,20,30,30,40};
+	List<Integer> c = new ArrayList<Integer>();
+	Set<Integer> a = new HashSet<Integer>();
+	
+	for(int x:b)
+	{
+		a.add(x);
+	}
+	
+	for(int x:b)
+	{
+		c.add(x);
+	}
+	Collections.sort(c);
+	
+	a.stream().forEach(n -> System.out.println(n));
+	
+	System.out.println("*************************************88");
+	
+	c.stream().forEach(n -> System.out.println(n));
+	
+	System.out.println("*************************************88");
+	
+	
+	a.stream().forEach(n -> {
+		
+		for(int i=0;i<c.size();i++)
+			
+		{
+			int count =0;
+			if(n == c.get(i))
+			{
+				System.out.println("number" + n);
+				count++;
+			}
+			
+			if(count==1)
+			{
+				
+				System.out.println( n +" unique" + count);
+				
+			}
+			else if(count>1)
+				
+			{
+				
+				System.out.println(n + "dup" + count);
+			}
+				
+			
+			System.out.println("count " + count);
+		}
+		
+	});
+	
+	if(c.contains(10))
+	{
+		
+		System.out.println("true");
+	}
+	
+	
+	
+	//a.stream().forEach(n -> c.stream().forEach(m -> System.out.println(n==m)));
+
+	
+	
+}
+}

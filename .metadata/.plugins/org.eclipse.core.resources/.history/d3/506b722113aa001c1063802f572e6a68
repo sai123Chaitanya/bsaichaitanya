@@ -1,0 +1,89 @@
+package screenshots;
+
+import java.util.ArrayList;
+
+public class Department {
+	
+	
+	public static void main(String[] args) {	
+		
+	}
+	
+	
+	public String getdepartment(String dep1)
+	{
+		
+		ArrayList<String> department = new ArrayList<String>();
+		department.add("sales");
+		department.add("manufacturing");
+		department.add("inventory");
+		department.add("customer");
+		department.add("admin");
+		
+		String dep =" ";
+
+		if(department.contains(dep1))
+			
+			dep = dep1;
+		return dep;
+	}
+	
+	public ArrayList get_sales_employeeslist()
+	{
+	
+	ArrayList sales_employees = new ArrayList();
+	sales_employees.add("ravi");
+	sales_employees.add("kiran");
+	sales_employees.add("praksh");
+	sales_employees.add("yathi");
+	sales_employees.add("gokul");
+	sales_employees.add("hari");
+	
+	}
+	
+	public ArrayList get_manufacturing_employees()
+	{
+	
+	ArrayList manufacturing_employees = new ArrayList();
+	manufacturing_employees.add("nitish");
+	manufacturing_employees.add("rohan");
+	manufacturing_employees.add("jagdish");
+	manufacturing_employees.add("aditya");
+	manufacturing_employees.add("lokesh");
+	manufacturing_employees.add("hitesh");
+	}
+	
+	public ArrayList get_inventory_employees()
+	{
+	ArrayList inventory_employees = new ArrayList();
+	inventory_employees.add("siddu");
+	inventory_employees.add("jeevan");
+	inventory_employees.add("rakesh");
+	inventory_employees.add("mary");
+	inventory_employees.add("priya");
+	inventory_employees.add("tanya");
+	}
+	public ArrayList get_customer_employees()
+	{
+	ArrayList customer_employees = new ArrayList();
+	customer_employees.add("siriraj");
+	customer_employees.add("jomin");
+	customer_employees.add("rakeshgulla");
+	customer_employees.add("marykom");
+	customer_employees.add("priyanaidu");
+	customer_employees.add("tanyasingh");
+	}
+	
+	ArrayList admin_employees = new ArrayList();
+	sales_employees.add("koushik");
+	sales_employees.add("raj");
+	sales_employees.add("naveen");
+	sales_employees.add("praveen");
+	sales_employees.add("joshi");
+	sales_employees.add("rudra");
+	
+	
+	return listname;
+	}
+
+}

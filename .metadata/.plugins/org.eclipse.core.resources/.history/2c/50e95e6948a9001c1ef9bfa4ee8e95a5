@@ -1,0 +1,29 @@
+package screenshots;
+
+import java.util.Arrays;
+
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
+public class Methodrefernce {
+	
+	public String a;
+	
+	public Methodrefernce()
+	{
+		
+		this.a = "hello";
+	}
+
+	
+	public String toString()
+	{
+		return this.a;
+	}
+	
+
+	public static void main(String[] args) {
+		
+		new Methodrefernce().toString();
+	}
+}
+

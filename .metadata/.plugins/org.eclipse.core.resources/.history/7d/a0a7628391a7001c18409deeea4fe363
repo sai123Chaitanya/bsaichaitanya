@@ -1,0 +1,12 @@
+
+public class Displaydeck3 {
+	
+	
+	public static void main(String[] args) {
+		
+		Card3 card = new Card3(Rank.ACE,Suit.DIAMONDS);
+		System.out.println(card.toString());
+	
+	}
+
+}

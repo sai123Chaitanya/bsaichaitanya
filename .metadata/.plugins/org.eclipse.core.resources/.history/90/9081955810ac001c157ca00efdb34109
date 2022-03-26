@@ -1,0 +1,11 @@
+package implicitwait;
+
+public class WaitTest {
+	
+	@BeforeMethod
+	private void setUp() {
+		driver = new 
+
+	}
+
+}

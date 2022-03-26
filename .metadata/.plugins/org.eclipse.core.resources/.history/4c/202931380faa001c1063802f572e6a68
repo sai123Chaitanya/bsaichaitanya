@@ -1,0 +1,38 @@
+package screenshots;
+
+import java.util.ArrayList;
+
+public class Department {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+	
+	public getdepartment(String department)
+	{
+		
+		ArrayList department = new ArrayList();
+		department.add("sales");
+		department.add("manufacturing");
+		department.add("inventory");
+		department.add("customer");
+		department.add("admin");
+		if(department.contains(department))
+			return department;  
+	}
+	
+	
+	
+	
+	public  String toString()
+	{
+		
+		
+	return 	
+	}
+
+}

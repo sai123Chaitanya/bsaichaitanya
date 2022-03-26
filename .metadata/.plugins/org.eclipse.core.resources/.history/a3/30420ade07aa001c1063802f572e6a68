@@ -1,0 +1,52 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class MapExamples {
+	public static void main(String[] args) {
+		
+		
+		// map cannot contain duplicate keys
+		
+		
+		
+		
+		
+		getpizzatype()
+		
+		
+		
+		//jdk 8 new features
+		//Lambda expressions
+		
+		
+		//method references
+		//default methods
+		//repeating annotations
+		//type annotations
+		//imporved type inferecen
+		//method parameter reflection
+		
+		//java.util.stream
+		//performance improvements of hashmap with key collections
+	}
+	
+	public int  getpizzatype(String basep,String t1p,String t2p)
+	{
+		int price;
+		String base;
+		String t1;
+		String t2;
+		HashMap pizzatypes = new HashMap();
+		pizzatypes.put(1, "hardbase");
+		pizzatypes.put(2, "softbase");
+		HashMap pizzabases = new HashMap();
+		pizzabases.put(1, "jalapenos");
+		pizzabases.put(2, "tomato");
+		pizzabases.put(3, "onion");
+		pizzabases.put(4,"carrrot");
+		
+		
+		return int price;
+	}
+
+}

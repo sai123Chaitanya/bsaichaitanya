@@ -1,0 +1,14 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Readdata {
+	
+	
+	public static void main(String[] args) throws Exception {
+		
+		String filepath = ".//resources//info.xlsx";
+		FileInputStream in = new FileInputStream(filepath);
+		
+	}
+
+}

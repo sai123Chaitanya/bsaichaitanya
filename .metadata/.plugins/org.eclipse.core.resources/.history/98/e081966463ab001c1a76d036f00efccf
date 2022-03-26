@@ -1,0 +1,41 @@
+import java.util.function.BiFunction;
+
+import Nclasses.M;
+
+public class MethodReferencesExamples {
+	
+	
+	public static <T> T mergeThings(T a,T b, BiFunction<T,T,T> merger)
+	{
+		return merger.apply(a, b);
+	}
+	
+	
+	public static String appendStrings(String a,String b)
+	{
+		return a+b;
+		
+	}
+	
+	public String appendString2(String a, String b)
+	{
+		
+		return a+b;
+	}
+	
+	public static void main(String[] args) {
+		
+		MethodReferencesExamples myApp = new MethodReferencesExamples();
+		System.out.println(MethodReferencesExamples.mergeThings("hello", "world", (a,b) -> a+b));
+		
+		
+		System.out.println(MethodReferencesExamples.mergeThings("Hello", "World", MethodReferencesExamples::appendStrings));
+		
+		System.out.println(MethodReferencesExamples.mergeThings("hello","world", myApp::appendString2));
+		
+		
+		
+		
+	}
+
+}

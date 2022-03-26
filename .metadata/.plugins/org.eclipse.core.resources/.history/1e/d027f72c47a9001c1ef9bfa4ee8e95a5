@@ -1,0 +1,18 @@
+package screenshots;
+
+import java.util.Arrays;
+
+public class Methodrefernce {
+	
+	
+	
+	public static void main(String[] args) {
+		int[] a = {1,3,576,5,434,2424,44,2,42,424,2};
+	}
+	
+	public String compare()
+	{
+		return toString();
+	}
+
+}

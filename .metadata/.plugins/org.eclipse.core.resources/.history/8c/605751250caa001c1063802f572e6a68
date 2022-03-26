@@ -1,0 +1,88 @@
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class MapExamples {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		// map cannot contain duplicate keys
+		
+		
+		
+		MapExamples me = new MapExamples();
+		
+		me.getpizzatype("hardbase","onion","tomato");
+		me.getpizzatype("softbase", "jalapenos");
+		
+		
+		
+		//jdk 8 new features
+		//Lambda expressions
+		
+		
+		//method references
+		//default methods
+		//repeating annotations
+		//type annotations
+		//imporved type inferecen
+		//method parameter reflection
+		
+		//java.util.stream
+		//performance improvements of hashmap with key collections
+	}
+	
+	public void  getpizzatype(String basep,String t1p,String t2p)
+	{
+		int base_pizza_price = 0;
+		int t1p_price = 0;
+		int t2p_price =0;
+		HashMap<String, Integer> pizzatypes = new HashMap<String, Integer>();
+		pizzatypes.put("hardbase", 1);
+		pizzatypes.put("softbase", 2);
+		HashMap<String, Integer> pizzatop = new HashMap<String, Integer>();
+		pizzatop.put("jalapenos", 1);
+		pizzatop.put("tomato", 2);
+		pizzatop.put("onion", 3);
+		pizzatop.put("carrrot",4);
+		if(pizzatypes.containsKey(basep) && pizzatop.containsKey(t1p) && pizzatop.containsKey(t2p))
+		{
+			
+			t1p_price = (int) pizzatypes.get(basep);
+			t2p_price = (int) pizzatop.get(t1p);
+			base_pizza_price = (int) pizzatop.get(t2p);
+			int total = t1p_price+t2p_price+base_pizza_price;
+			System.out.println("price" + total);
+		}
+			
+	
+	}
+	
+	
+	public void  getpizzatype(String basep,String t1p)
+	{
+		int base_pizza_price = 0;
+		int t1p_price = 0;
+
+		HashMap<String, Integer> pizzatypes = new HashMap<String, Integer>();
+		pizzatypes.put("hardbase", 1);
+		pizzatypes.put("softbase", 2);
+		HashMap<String, Integer> pizzatop = new HashMap<String, Integer>();
+		pizzatop.put("jalapenos", 1);
+		pizzatop.put("tomato", 2);
+		pizzatop.put("onion", 3);
+		pizzatop.put("carrrot",4);
+		if(pizzatypes.containsKey(basep) && pizzatop.containsKey(t1p))
+		{
+			t1p_price = (int) pizzatop.get(t1p);
+			base_pizza_price = (int) pizzatop.get(basep);
+			int total = t1p_price+base_pizza_price;
+			System.out.println("price" + total);
+		}
+			
+	
+	}
+	
+
+}

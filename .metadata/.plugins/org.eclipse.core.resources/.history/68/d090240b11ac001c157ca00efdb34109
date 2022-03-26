@@ -1,0 +1,29 @@
+package implicitwait;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeMethod;
+
+public class WaitTest {
+	
+	private WebDriver driver;
+	private String baseUrl;
+	private WebElement element;
+	
+
+	@BeforeMethod
+	private void setUp() throws Exception {
+		driver = new FirefoxDriver();
+		baseUrl = "http://www.google.com";
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		
+
+	}
+	
+	@Test
+	public void testUntitled
+
+}
