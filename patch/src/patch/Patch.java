@@ -22,18 +22,4 @@ public class Patch {
 		
 	}
 }
-<<<<<<< HEAD
-//major edit 345 456 562
-=======
-//major edit 5678
->>>>>>> 24bee235a30ee7acb3c42fc7f39767483673346e
-//hello world
-//edit 35
-//eidt36
-//edit3876
-//edit1
-//edit2
-//eidt3
-//edit2
-//urgent
-//urgent edit
+
