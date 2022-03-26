@@ -8139,3 +8139,18 @@ Caused by: java.nio.file.AccessDeniedException: D:\software-Testing\eclipse-jee-
 	at java.base/java.nio.file.Files.delete(Files.java:1146)
 	at org.eclipse.equinox.internal.p2.touchpoint.natives.SimpleBackupStore.moveToBackup(SimpleBackupStore.java:573)
 	... 14 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-03-26 17:43:21.344
+!MESSAGE An internal error occurred
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: No changes
+	at org.eclipse.jgit.api.CommitCommand.createTemporaryIndex(CommitCommand.java:515)
+	at org.eclipse.jgit.api.CommitCommand.call(CommitCommand.java:226)
+	at org.eclipse.egit.core.op.CommitOperation.commit(CommitOperation.java:259)
+	at org.eclipse.egit.core.op.CommitOperation.access$5(CommitOperation.java:249)
+	at org.eclipse.egit.core.op.CommitOperation$1.run(CommitOperation.java:211)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:220)
+	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
